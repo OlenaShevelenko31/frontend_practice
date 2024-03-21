@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=h1, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/tables.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="../index.html">Home</a></li>
+      <li><a href="../pages/register.html">Register</a></li>
+      <li><a href="../pages/about.html">About</a></li>
+      <li style="float: right"><a href="../pages/tables.html">Tables</a></li>
+      <li style="float: right">
+        <a href="../pages/login.html">
+          <img
+            src="../images/icons8-login-50 (1).png"
+            alt="Login Icon"
+            class="login-user"
+          />
+          Log In
+        </a>
+      </li>
+    </ul>
+
+    <div class="register">
+      <h1>Register</h1>
+      <form action="#">
+        <label for="UserName">First name</label>
+        <input
+          type="text"
+          placeholder="type your fist name"
+          name="userName"
+          id="UserName"
+          required
+        /><br />
+        <label for="password">Last name</label>
+        <input
+          type="text"
+          placeholder="type your last name"
+          name="UserLast"
+          id="UserName"
+        /><br /><br />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          placeholder="type your email"
+          name="email"
+          id="UserName"
+        /><br /><br />
+        <label for="password">Pasword</label>
+        <input
+          type="password"
+          placeholder="confirt your email"
+          name="password"
+          id="password"
+        /><br /><br />
+        <label for="password">Confirm your pasword</label>
+        <input
+          type="password"
+          placeholder="confirm your email"
+          name="password"
+          id="password"
+        /><br /><br />
+
+        <legend>Gender</legend>
+        <label for="radio1">Female</label>
+        <input type="radio" name="radio" id="radio1" />
+        <label for="radio2">Man</label>
+        <input type="radio" name="radio" id="radio2" /><br /><br />
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" /> <br /><br />
+
+        <p>Habits:</p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> You like to sleep </label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+        <label for="vehicle2"> You like to ate</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+        <label for="vehicle3"> You like to hike</label><br /><br />
+
+        <button type="button">Submit!</button>
+      </form>
+    </div>
+  </body>
+</html>
